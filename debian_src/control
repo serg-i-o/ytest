@@ -1,12 +1,12 @@
-Source: redmeters-backend
+Source: ytest
 Section: python
 Priority: extra
 Maintainer: Sergei Ermolaev <s.ermolaev@redmeters.com>
 Build-Depends: debhelper (>= 9), python3, dh-virtualenv (>= 1.0), python3-pip, python3-dev
 Standards-Version: 3.9.5
 
-Package: redmeters-backend
+Package: ytest
 Architecture: armhf
 Pre-Depends: dpkg (>= 1.16.1), python3 (>= 3.5), ${misc:Pre-Depends}
-Depends: ${python:Depends}, ${misc:Depends}, dialog, sqlite3, liblapack-dev, libopenblas-dev, libbliss-dev, libbliss-dev-common, liblapack-dev, usbmount, ntfs-3g, python3-distutils, libatlas-base-dev, libhdf5-dev, autossh, bc
+Depends: ${python:Depends}, ${misc:Depends}
 Description: Redmeters Device Backend __commit__

@@ -1,3 +1,0 @@
-DeviceBackend/Config/config.json /etc/redmeters
-DeviceBackend/Modules/algorithms/neural_nimbus/models/model_lte.json /etc/redmeters
-DeviceBackend/Modules/algorithms/neural_nimbus/models/model_lte.h5 /etc/redmeters

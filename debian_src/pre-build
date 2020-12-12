@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if ! grep -s -q "name='DeviceBackend'" setup.py
+if ! grep -s -q "name='ytest'" setup.py
 then
   echo You are not in the top of package directory
   exit 1
