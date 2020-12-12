@@ -1,0 +1,16 @@
+.idea/
+/*.egg-info
+/debian
+/dist
+out/
+venv/
+.coverage
+DeviceBackend/AutoApi/
+
+*.iml
+*.pyc
+*.bak
+*.orig
+*.db
+
+.vscode

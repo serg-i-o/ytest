@@ -1,0 +1,5 @@
+opt/redmeters-backend/bin/redmeters-backend usr/bin/redmeters-backend
+opt/redmeters-backend/bin/redmeters-ra4root usr/local/bin/redmeters-ra4root
+opt/redmeters-backend/bin/download.sh usr/local/bin/download.sh
+opt/redmeters-backend/bin/local_copy.sh usr/local/bin/local_copy.sh
+opt/redmeters-backend/bin/copy_flash.sh usr/local/bin/copy_flash.sh

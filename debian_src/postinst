@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if ! test -f "/etc/redmeters/config.json"; then
+     cp /etc/redmeters/config.json.dist /etc/redmeters/config.json
+fi
+
+if grep -q "MountFlags=slave" /lib/systemd/system/systemd-udevd.service; then
+   sed -i 's/MountFlags=slave/MountFlags=shared/g' /lib/systemd/system/systemd-udevd.service
+fi
+
+if grep -q "PrivateMounts=yes" /lib/systemd/system/systemd-udevd.service; then
+   sed -i 's/PrivateMounts=yes/PrivateMounts=no/g' /lib/systemd/system/systemd-udevd.service
+fi
